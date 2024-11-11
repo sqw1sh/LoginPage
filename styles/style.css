@@ -1,2 +1,176 @@
 @import 'base.css';
 
+.form {
+    min-width: 690px;
+    background-color: rgba(255, 255, 255, 10%);
+    border: 3px solid rgba(255, 255, 255, 24%);
+    border-radius: 40px;
+    backdrop-filter: blur(25px);
+    padding: 47px 92px;
+}
+
+.logo {
+    display: inline-block;
+    font-family: 'GilroyBold', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.form-title {
+    font-family: 'GilroyBold', sans-serif;
+    font-size: 38px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 500px;
+}
+
+.form-control:first-child {
+    margin-bottom: 30px;
+}
+
+.form-control:nth-child(2) {
+    margin-bottom: 35px;
+}
+
+.form-control label {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.form-control input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #BCBEC0;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    outline: 0;
+    border-radius: 10px;
+    padding: 16px 23px;
+    height: 50px;
+    transition: border-color .3s;
+}
+
+.form-control input:focus,
+.form-control input:hover {
+    border-color: #000000;
+}
+
+.form-control input::placeholder {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 14px;
+    color: #BCBEC0;
+}
+
+.form-control a {
+    display: inline-block;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 11px;
+}
+
+.form-control button {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #BD0C47;
+    padding: 13px;
+    font-family: 'GilroyBold', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    outline: 0;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transform: scale(1);
+    transition: background-color .3s, transform .3s;
+}
+
+.form-control button:focus,
+.form-control button:hover {
+    background-color: #cf215b;
+}
+
+.form-control button:active {
+    transform: scale(0.95);
+}
+
+.more-text {
+    text-align: center;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.service-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.service-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #BCBEC0;
+    border-radius: 10px;
+    transition: border-color .3s;
+}
+
+.service-link:focus,
+.service-link:hover {
+    border-color: #000000;
+}
+
+.more-link {
+    text-align: center;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.more-link a {
+    font-family: 'GilroySemibold', sans-serif;
+    color: #FFFFFF;
+}
+
+.shape {
+    position: fixed;
+    z-index: 2;
+}
+
+.shape-1 {
+    top: 274.69px;
+    left: 388.88px;
+}
+
+.shape-2 {
+    top: 462.01px;
+    left: 384.01px;
+}
+
+.shape-3 {
+    top: 713.63px;
+    left: 1242.3px;
+}
+
+.shape-4 {
+    top: 811px;
+    left: 1355.87px;
+}

@@ -9,9 +9,44 @@ html{
 }
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
     background-image: url('../images/main-bg-min.png');
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GilroySemibold';
+    src: url('../fonts/Gilroy-Semibold.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('../fonts/Gilroy-Bold.ttf');
+    font-style: normal;
+    font-weight: bold;
 }
